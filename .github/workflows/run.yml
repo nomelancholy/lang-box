@@ -31,5 +31,5 @@ jobs:
       - run: npm start
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 64dacee1c6c93cdbcf48548f6598f823
+          GIST_ID: 27efd631f2a1ac6b8a227b2b19fd25c1
           USERNAME: ${{ github.actor }}
